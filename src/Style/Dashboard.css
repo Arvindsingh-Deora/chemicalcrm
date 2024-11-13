@@ -1,0 +1,79 @@
+
+
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between; /* Space between cards */
+    align-items: center;   
+    flex-wrap: wrap; /* Allows wrapping of cards */
+    gap: 40px;
+    margin:80px;        /* Center vertically */
+    
+     /* Light background for the dashboard */
+                  /* Full height */
+  }
+  .card {
+    width: 250px; /* Adjusted width */
+    height: 150px; /* Fixed height */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .card h2 {
+    margin: 0;                  
+    font-size: 24px;             
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis if text is too long */
+  }
+  
+  .card p {
+    font-size: 32px;             /* Larger font size for the count */
+    margin: 10px 0 0 0;         /* Margin above the count */
+  }
+  
+  /* Specific styles for chemicals card */
+  .card:nth-child(1) {
+    background-color: #da78ea;   /* Yellow background */
+    color: white/* Black text */
+  }                 
+  
+  /* Specific styles for suppliers card */
+  .card:nth-child(2) {
+    background-color: #2196f3;   /* Blue background */
+    color: #fff;                 /* White text */
+  }
+
+  .card:nth-child(3){
+    background-color:  rgb(248, 134, 103);
+    color: white;
+
+  }
+
+  .card:nth-child(4){
+    background-color: rgb(249, 163, 59);
+    color: white
+  }
+  .calendar-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .full-width {
+    width: 100%;
+    margin-top: 20px; /* Adds some space above the table */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .expense-table {
+    width: 100%;
+  }
+
+  

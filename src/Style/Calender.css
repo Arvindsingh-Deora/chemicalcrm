@@ -1,0 +1,47 @@
+/* Basic styling for the calendar container */
+.calendar {
+  max-width: 1050px;
+  margin: auto;
+  padding: 20px;
+  color: #382afc;
+  background-color: #f1f1f5; /* Light background for the calendar */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #00000033;
+}
+
+/* Calendar title and month/year label */
+.react-calendar__navigation button {
+  color: #07f12a; /* Text color for navigation */
+  background: none;
+  font-weight: bold;
+}
+
+/* Navigation button hover effect */
+.react-calendar__navigation button:hover {
+  background-color: #ea2c2c; /* Light hover effect */
+}
+
+/* Day cells styling */
+.react-calendar__tile {
+  background-color: #ee37d2; /* White background for each day */
+  color: #def819; /* Dark text color for days */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for day cells */
+.react-calendar__tile:hover {
+  background-color: #e0f7fa; /* Light blue hover effect */
+}
+
+/* Selected date styling */
+.react-calendar__tile--active {
+  background-color: #4caf50; /* Green background for selected day */
+  color: #ffffff; /* White text color for selected day */
+}
+
+/* Disabled dates */
+.react-calendar__tile--disabled {
+  color: #ccc; /* Light gray for disabled dates */
+  background-color: #f4f4f9;
+}
